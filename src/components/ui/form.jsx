@@ -71,8 +71,7 @@ function Form() {
 
           {shortenedUrl && (
             <p className="text-green-800 font-secondary text-xl font-light">
-              {" "}
-              {shortenedUrl}{" "}
+                <a href={shortenedUrl} target="_blank" rel="noopener noreferrer" className="hover:text-gray-700 hover:underline transition-all duration-100"> {shortenedUrl}</a>
             </p>
           )}
 
